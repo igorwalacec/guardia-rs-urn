@@ -1,0 +1,42 @@
+# Ignorar diretórios de build
+/target/
+
+# Ignorar arquivos de metadados do editor
+**/*.rs.bk
+**/*.rs.swp
+**/*.rs.swo
+**/*.rs.swn
+**/*.rs.swp
+**/*.rs.swo
+**/*.rs.swn
+**/*.rs.swp
+**/*.rs.swo
+**/*.rs.swn
+
+# Ignorar arquivos de configuração do editor
+/.vscode/
+/.idea/
+/*.iml
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de lock
+Cargo.lock
+
+# Ignorar arquivos de compilação
+*.rlib
+*.dSYM
+*.exe
+*.exe~
+*.out
+*.so
+*.dylib
+*.dll
+
+# Ignorar arquivos de teste
+/tests/output/ 
